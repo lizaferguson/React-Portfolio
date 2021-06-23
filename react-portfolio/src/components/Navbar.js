@@ -10,7 +10,7 @@ const Navbar = () => {
   </button>
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul className="navbar-nav mr-auto">
+    <ul className="navbar-nav text-right">
       <li className="nav-item">
         <a className="nav-link" href="#">About Me</a>
       </li>
