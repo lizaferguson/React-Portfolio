@@ -1,19 +1,32 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@200;500&display=swap');
+
+:root {
+  --soft-white: #FCF1F1;
+  --grey: #A5A4A4;
+  --sage: #ADCEAB;
 }
 
-.App-logo {
+body {
+  font-family: 'Spartan', sans-serif;
+  font-weight: 500;
+}
+
+/* .App {
+  text-align: center;
+} */
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
+} */
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
-.App-header {
+/* .App-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,17 +35,40 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
-}
+} */
 
-@keyframes App-logo-spin {
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
+} */
+
+/* Navbar*/
+.logo {
+  width: 10.25rem;
+  margin-left: 2rem;
 }
+
+/* Nav Links */
+.navbar-nav {
+  cursor: pointer;
+  background-color: var(--soft-white);
+}
+
+.navbar-nav a {
+  color: var(--grey);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.navbar-nav a:hover {
+  color: var(--sage);
+}
+
